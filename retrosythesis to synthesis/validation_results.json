@@ -1,0 +1,227 @@
+[
+  {
+    "molecule_smiles": "Cc1csc(NC(=O)c2cccnc2N2CCOCC2)n1",
+    "steps": [
+      {
+        "step_index": 1,
+        "product": "Cc1csc(NC(=O)c2cccnc2N2CCOCC2)n1",
+        "reactants": [
+          "O=C(O)c1cccnc1N1CCOCC1",
+          "Cc1csc(N)n1"
+        ],
+        "reaction_template": "[Cl,OH,O-:3][C$(C(=O)([CX4,c])),C$([CH](=O)):2]=[O:4].[N$([NH2,NH3+1]([CX4,c])),N$([NH]([CX4,c])([CX4,c])):6]>>[N+0:6]-[C:2]=[O:4]",
+        "sampling_param": "frozen",
+        "hit_count": 42,
+        "n_samples": 50,
+        "confidence": 0.84,
+        "flagged": false,
+        "rdkit_valid": true,
+        "rdkit_note": "Template forward-execution matched product"
+      }
+    ],
+    "overall_confidence": 0.84,
+    "passed": true,
+    "threshold": 0.5,
+    "n_samples_used": 50
+  },
+  {
+    "molecule_smiles": "Cc1csc(NC(=O)c2cccnc2N2CCOCC2)n1",
+    "steps": [
+      {
+        "step_index": 1,
+        "product": "Cc1csc(NC(=O)c2cccnc2N2CCOCC2)n1",
+        "reactants": [
+          "O=C(O)c1cccnc1N1CCOCC1",
+          "Cc1csc(N)n1"
+        ],
+        "reaction_template": "[Cl,OH,O-:3][C$(C(=O)([CX4,c])),C$([CH](=O)):2]=[O:4].[N$([NH2,NH3+1]([CX4,c])),N$([NH]([CX4,c])([CX4,c])):6]>>[N+0:6]-[C:2]=[O:4]",
+        "sampling_param": "low",
+        "hit_count": 39,
+        "n_samples": 50,
+        "confidence": 0.78,
+        "flagged": false,
+        "rdkit_valid": true,
+        "rdkit_note": "Template forward-execution matched product"
+      }
+    ],
+    "overall_confidence": 0.78,
+    "passed": true,
+    "threshold": 0.5,
+    "n_samples_used": 50
+  },
+  {
+    "molecule_smiles": "Cc1csc(NC(=O)c2cccnc2N2CCOCC2)n1",
+    "steps": [
+      {
+        "step_index": 1,
+        "product": "Cc1csc(NC(=O)c2cccnc2N2CCOCC2)n1",
+        "reactants": [
+          "O=C(O)c1cccnc1N1CCOCC1",
+          "Cc1csc(N)n1"
+        ],
+        "reaction_template": "[Cl,OH,O-:3][C$(C(=O)([CX4,c])),C$([CH](=O)):2]=[O:4].[N$([NH2,NH3+1]([CX4,c])),N$([NH]([CX4,c])([CX4,c])):6]>>[N+0:6]-[C:2]=[O:4]",
+        "sampling_param": "low",
+        "hit_count": 32,
+        "n_samples": 50,
+        "confidence": 0.64,
+        "flagged": false,
+        "rdkit_valid": true,
+        "rdkit_note": "Template forward-execution matched product"
+      }
+    ],
+    "overall_confidence": 0.64,
+    "passed": true,
+    "threshold": 0.5,
+    "n_samples_used": 50
+  },
+  {
+    "molecule_smiles": "Cc1csc(NC(=O)c2cccnc2N2CCOCC2)n1",
+    "steps": [
+      {
+        "step_index": 1,
+        "product": "Cc1csc(NC(=O)c2cccnc2N2CCOCC2)n1",
+        "reactants": [
+          "Cc1csc(N)n1",
+          "O=C(O)c1cccnc1N1CCOCC1"
+        ],
+        "reaction_template": "[Cl,OH,O-:3][C$(C(=O)([CX4,c])),C$([CH](=O)):2]=[O:4].[N$([NH2,NH3+1]([CX4,c])),N$([NH]([CX4,c])([CX4,c])):6]>>[N+0:6]-[C:2]=[O:4]",
+        "sampling_param": "medium",
+        "hit_count": 30,
+        "n_samples": 50,
+        "confidence": 0.6,
+        "flagged": false,
+        "rdkit_valid": false,
+        "rdkit_note": "Template produced no products on these reactants"
+      }
+    ],
+    "overall_confidence": 0.6,
+    "passed": true,
+    "threshold": 0.5,
+    "n_samples_used": 50
+  },
+  {
+    "molecule_smiles": "Cc1csc(NC(=O)c2cccnc2N2CCOCC2)n1",
+    "steps": [
+      {
+        "step_index": 1,
+        "product": "Cc1csc(NC(=O)c2cccnc2N2CCOCC2)n1",
+        "reactants": [
+          "O=C(O)c1cccnc1N1CCOCC1",
+          "Cc1csc(N)n1"
+        ],
+        "reaction_template": "[Cl,OH,O-:3][C$(C(=O)([CX4,c])),C$([CH](=O)):2]=[O:4].[N$([NH2,NH3+1]([CX4,c])),N$([NH]([CX4,c])([CX4,c])):6]>>[N+0:6]-[C:2]=[O:4]",
+        "sampling_param": "medium",
+        "hit_count": 31,
+        "n_samples": 50,
+        "confidence": 0.62,
+        "flagged": false,
+        "rdkit_valid": true,
+        "rdkit_note": "Template forward-execution matched product"
+      }
+    ],
+    "overall_confidence": 0.62,
+    "passed": true,
+    "threshold": 0.5,
+    "n_samples_used": 50
+  },
+  {
+    "molecule_smiles": "Cc1csc(NC(=O)c2cccnc2N2CCOCC2)n1",
+    "steps": [
+      {
+        "step_index": 1,
+        "product": "Cc1csc(NC(=O)c2cccnc2N2CCOCC2)n1",
+        "reactants": [
+          "O=C(O)c1cccnc1N1CCOCC1",
+          "Cc1csc(N)n1"
+        ],
+        "reaction_template": "[Cl,OH,O-:3][C$(C(=O)([CX4,c])),C$([CH](=O)):2]=[O:4].[N$([NH2,NH3+1]([CX4,c])),N$([NH]([CX4,c])([CX4,c])):6]>>[N+0:6]-[C:2]=[O:4]",
+        "sampling_param": "medium",
+        "hit_count": 23,
+        "n_samples": 50,
+        "confidence": 0.46,
+        "flagged": true,
+        "rdkit_valid": true,
+        "rdkit_note": "Template forward-execution matched product"
+      }
+    ],
+    "overall_confidence": 0.46,
+    "passed": false,
+    "threshold": 0.5,
+    "n_samples_used": 50
+  },
+  {
+    "molecule_smiles": "Cc1csc(NC(=O)c2cccnc2N2CCOCC2)n1",
+    "steps": [
+      {
+        "step_index": 1,
+        "product": "Cc1csc(NC(=O)c2cccnc2N2CCOCC2)n1",
+        "reactants": [
+          "O=C(O)c1cccnc1N1CCOCC1",
+          "Cc1csc(N)n1"
+        ],
+        "reaction_template": "[Cl,OH,O-:3][C$(C(=O)([CX4,c])),C$([CH](=O)):2]=[O:4].[N$([NH2,NH3+1]([CX4,c])),N$([NH]([CX4,c])([CX4,c])):6]>>[N+0:6]-[C:2]=[O:4]",
+        "sampling_param": "high",
+        "hit_count": 20,
+        "n_samples": 50,
+        "confidence": 0.4,
+        "flagged": true,
+        "rdkit_valid": true,
+        "rdkit_note": "Template forward-execution matched product"
+      }
+    ],
+    "overall_confidence": 0.4,
+    "passed": false,
+    "threshold": 0.5,
+    "n_samples_used": 50
+  },
+  {
+    "molecule_smiles": "Cc1csc(NC(=O)c2cccnc2N2CCOCC2)n1",
+    "steps": [
+      {
+        "step_index": 1,
+        "product": "Cc1csc(NC(=O)c2cccnc2N2CCOCC2)n1",
+        "reactants": [
+          "O=C(O)c1cccnc1N1CCOCC1",
+          "Cc1csc(N)n1"
+        ],
+        "reaction_template": "[Cl,OH,O-:3][C$(C(=O)([CX4,c])),C$([CH](=O)):2]=[O:4].[N$([NH2,NH3+1]([CX4,c])),N$([NH]([CX4,c])([CX4,c])):6]>>[N+0:6]-[C:2]=[O:4]",
+        "sampling_param": "high",
+        "hit_count": 26,
+        "n_samples": 50,
+        "confidence": 0.52,
+        "flagged": false,
+        "rdkit_valid": true,
+        "rdkit_note": "Template forward-execution matched product"
+      }
+    ],
+    "overall_confidence": 0.52,
+    "passed": true,
+    "threshold": 0.5,
+    "n_samples_used": 50
+  },
+  {
+    "molecule_smiles": "Cc1csc(NC(=O)c2cccnc2N2CCOCC2)n1",
+    "steps": [
+      {
+        "step_index": 1,
+        "product": "Cc1csc(NC(=O)c2cccnc2N2CCOCC2)n1",
+        "reactants": [
+          "C1COCCN1",
+          "Cc1csc(NC(=O)c2cccnc2Cl)n1"
+        ],
+        "reaction_template": "[c;!$(c1ccccc1);$(c1[n,c]c[n,c]c[n,c]1):1][Cl,F].[N;$(NC);!$(N=*);!$([N-]);!$(N#*);!$([ND3]);!$([ND4]);!$(N[c,O]);!$(N[C,S]=[S,O,N]):2]>>[c:1][N:2]",
+        "sampling_param": "high",
+        "hit_count": 27,
+        "n_samples": 50,
+        "confidence": 0.54,
+        "flagged": false,
+        "rdkit_valid": false,
+        "rdkit_note": "Template produced no products on these reactants"
+      }
+    ],
+    "overall_confidence": 0.54,
+    "passed": true,
+    "threshold": 0.5,
+    "n_samples_used": 50
+  }
+]
